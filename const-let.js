@@ -24,3 +24,5 @@ console.log("바뀐 이름은" + myName);
 
 // 대부분 const를 쓰고 let은 가끔 업데이트가 필요할 경우, var는 쓰지않음
 
+
+
