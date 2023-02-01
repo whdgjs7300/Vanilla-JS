@@ -1,6 +1,6 @@
 // Return
 // 함수안에 코드의 결과를 나에게 전달하고 싶을 때(화면에 보여주고 싶을 때)
-
+// Return을 한 후엔 뒤에 코드가 있더라도 함수 종료
 
 const calculator = {
     plus : function(a, b) {
