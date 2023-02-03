@@ -1,6 +1,6 @@
 // 조건문(if, else)
 
-const age2 = parseInt(prompt("How old are you?"));
+// const age2 = parseInt(prompt("How old are you?"));
 
 
 
@@ -20,5 +20,4 @@ if(isNaN(age2)) {
 } else {
     console.log("술을 마실 수 없습니다");
 }
-
 

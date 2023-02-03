@@ -6,3 +6,11 @@
 document.title = "Hi";
 
 console.log(document.title);
+
+// HTML 태그를 불러오는 방법(id)
+const title = document.getElementById("title");
+
+console.log(title);
+
+// HTML 태그 수정하는 방법
+title.innerHTML ="Got you!";
