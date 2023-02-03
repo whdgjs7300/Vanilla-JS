@@ -14,3 +14,21 @@ console.log(title);
 
 // HTML 태그 수정하는 방법
 title.innerHTML ="Got you!";
+
+const hellos = document.getElementsByClassName("hello");
+
+
+console.log(hellos);
+
+// querySelector는 element를 CSS 방식으로 검색할 수 있음
+// h1 태그의 클래스명이 다같애도 젤 위에있는 첫번째
+// 태그만 호출함
+const title2 = document.querySelector(".hello h1");
+
+console.log(title2);
+
+// querySelectorAll 
+// 같은 클래스명의 h1 태그 전부를 불러옴(array 형식)
+
+const title3 = document.querySelectorAll(".hello h1");
+console.log(title3);
